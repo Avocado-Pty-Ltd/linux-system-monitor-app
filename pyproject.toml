@@ -1,0 +1,13 @@
+[project]
+name = "linux-system-monitor"
+version = "0.1.0"
+dependencies = [
+    "textual",
+    "psutil",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-asyncio",
+]
